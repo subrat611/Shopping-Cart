@@ -1,0 +1,46 @@
+/**
+* DAY 1:
+* Today challenges are building navigation bar.
+* Adding cart icon to navigation bar.
+* Adding cart amount to cart icon.
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 3rem 10rem;
+}
+
+.cart {
+    position: relative;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 9px;
+}
+
+.cart .cart__amount {
+    position: absolute;
+    top: -12px;
+    left: 34px;
+    background-color: orange;
+    border-radius: 3px;
+    font-size: 23px;
+    padding: 0 3px;
+}
